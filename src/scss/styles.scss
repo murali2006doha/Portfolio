@@ -19,6 +19,29 @@
   ul.nav-pills {
     top: 200px;
     position: sticky;
+    
+    
+  }
+  
+}
+
+#myScrollspy {
+  padding-top: 20px;
+  font-family: 'Do Hyeon', sans-serif;
+  
+  .nav>li>a.active {
+    background-color: gold;
+  }
+  .nav>li>a:hover {
+     background-color: lightgoldenrodyellow;
+  }
+
+  .nav>li>a:focus {
+     background-color: transparent;
+  }
+  
+  .nav>li>a{
+    color: darkslateblue;
   }
 
 }
@@ -27,7 +50,6 @@
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 20px; /* Added */
-
 }
 
 .navbar {  
@@ -44,14 +66,10 @@
     border: 3px solid #ccc;
     border-color: darkslateblue;
     color: black;
+    background-color: gold;
   }
 }
 
-#myScrollspy {
-  background-color: white;
-  font-family: 'Do Hyeon', sans-serif;
-  color: black;
-}
 
 h2 {
   border-bottom: 1px solid #ccc;
@@ -74,7 +92,7 @@ div {
     padding-left: 100px;
     padding-right: 100px;
     color: gold;
-    
+    margin: 0 !important; 
   }
   
   .col-md-6 {
@@ -94,7 +112,10 @@ div {
 
 #section1 {
   font-family: 'Do Hyeon', sans-serif;
-
+  h2 {
+    margin-top: 20px;
+  }
+  
   h5 {
     margin-top: 20px;
   }

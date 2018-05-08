@@ -6290,6 +6290,18 @@ a.text-dark:hover, a.text-dark:focus {
     top: 200px;
     position: sticky; }
 
+#myScrollspy {
+  padding-top: 20px;
+  font-family: 'Do Hyeon', sans-serif; }
+  #myScrollspy .nav > li > a.active {
+    background-color: gold; }
+  #myScrollspy .nav > li > a:hover {
+    background-color: lightgoldenrodyellow; }
+  #myScrollspy .nav > li > a:focus {
+    background-color: transparent; }
+  #myScrollspy .nav > li > a {
+    color: darkslateblue; }
+
 .card {
   margin: 0 auto;
   /* Added */
@@ -6309,12 +6321,8 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar .btn {
     border: 3px solid #ccc;
     border-color: darkslateblue;
-    color: black; }
-
-#myScrollspy {
-  background-color: white;
-  font-family: 'Do Hyeon', sans-serif;
-  color: black; }
+    color: black;
+    background-color: gold; }
 
 h2 {
   border-bottom: 1px solid #ccc;
@@ -6333,7 +6341,8 @@ div .jumbotron {
   color: white;
   padding-left: 100px;
   padding-right: 100px;
-  color: gold; }
+  color: gold;
+  margin: 0 !important; }
 
 div .col-md-6 {
   padding-top: 50px; }
@@ -6347,6 +6356,8 @@ div .col-md-6 {
 
 #section1 {
   font-family: 'Do Hyeon', sans-serif; }
+  #section1 h2 {
+    margin-top: 20px; }
   #section1 h5 {
     margin-top: 20px; }
   #section1 .col {
