@@ -1,4 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
 
 .container-fluid 
 {
@@ -32,16 +35,28 @@
   border-bottom: 3px solid #ccc;
   border-bottom-color: darkslateblue; 
   background-color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  
+  .navbar-brand {
+    color: black;
+  }
+  .btn {
+    border: 3px solid #ccc;
+    border-color: darkslateblue;
+    color: black;
+  }
 }
 
 #myScrollspy {
   background-color: white;
-  
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
 }
 
 h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
+  font-family: 'Anton', sans-serif;
 }
 
 .img-responsive {
@@ -52,12 +67,14 @@ h2 {
 
 div {
   .jumbotron {
-    border-bottom: 1px solid #ccc;
-    border-bottom-color: darkslateblue;
+    border-bottom: 3px solid #ccc;
+    border-bottom-color: gold;
     background-color: darkslateblue;
     color: white;
     padding-left: 100px;
     padding-right: 100px;
+    color: gold;
+    
   }
   
   .col-md-6 {
@@ -76,6 +93,11 @@ div {
 }
 
 #section1 {
+  font-family: 'Do Hyeon', sans-serif;
+
+  h5 {
+    margin-top: 20px;
+  }
   .col {
     padding-bottom: 20px;
     padding-top: 10px;
@@ -83,7 +105,6 @@ div {
   
   #carouselExampleControls {
     img {
-      height: 500px !important; 
       width: auto;
     }
   }
@@ -94,11 +115,16 @@ div {
       margin: 0 auto;
     }
   }  
+    kbd {
+      background-color: darkslateblue;
+    }  
 }
 
 
 
 #section2 {
+  font-family: 'Do Hyeon', sans-serif;
+
   padding-top: 80px;
   #languages {
     h5 {
@@ -107,6 +133,9 @@ div {
     }
     .col-sm-3 {
       text-align: center;
+    }
+    kbd {
+      background-color: darkslateblue;
     }
   }
 
@@ -127,6 +156,8 @@ div {
 
 
 #section3 {
+  font-family: 'Do Hyeon', sans-serif;
+
   padding-top: 80px;
   .alignleft {
     float: left;
@@ -138,6 +169,8 @@ div {
 }
 
 #section4 {
+  font-family: 'Do Hyeon', sans-serif;
+
   padding-top: 80px;
   .alignleft {
     float: left;

@@ -4,6 +4,8 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6300,14 +6302,24 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 1.8;
   border-bottom: 3px solid #ccc;
   border-bottom-color: darkslateblue;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  font-family: 'Anton', sans-serif; }
+  .navbar .navbar-brand {
+    color: black; }
+  .navbar .btn {
+    border: 3px solid #ccc;
+    border-color: darkslateblue;
+    color: black; }
 
 #myScrollspy {
-  background-color: white; }
+  background-color: white;
+  font-family: 'Do Hyeon', sans-serif;
+  color: black; }
 
 h2 {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-family: 'Anton', sans-serif; }
 
 .img-responsive {
   padding-bottom: 10px;
@@ -6315,12 +6327,13 @@ h2 {
   width: 200px; }
 
 div .jumbotron {
-  border-bottom: 1px solid #ccc;
-  border-bottom-color: darkslateblue;
+  border-bottom: 3px solid #ccc;
+  border-bottom-color: gold;
   background-color: darkslateblue;
   color: white;
   padding-left: 100px;
-  padding-right: 100px; }
+  padding-right: 100px;
+  color: gold; }
 
 div .col-md-6 {
   padding-top: 50px; }
@@ -6332,25 +6345,31 @@ div .col-md-6 {
 .gap-right {
   margin-right: 10px; }
 
-#section1 .col {
-  padding-bottom: 20px;
-  padding-top: 10px; }
-
-#section1 #carouselExampleControls img {
-  height: 500px !important;
-  width: auto; }
-
-#section1 #carouselExampleControls2 img {
-  height: auto !important;
-  margin: 0 auto; }
+#section1 {
+  font-family: 'Do Hyeon', sans-serif; }
+  #section1 h5 {
+    margin-top: 20px; }
+  #section1 .col {
+    padding-bottom: 20px;
+    padding-top: 10px; }
+  #section1 #carouselExampleControls img {
+    width: auto; }
+  #section1 #carouselExampleControls2 img {
+    height: auto !important;
+    margin: 0 auto; }
+  #section1 kbd {
+    background-color: darkslateblue; }
 
 #section2 {
+  font-family: 'Do Hyeon', sans-serif;
   padding-top: 80px; }
   #section2 #languages h5 {
     padding-top: 20px;
     padding-bottom: 10px; }
   #section2 #languages .col-sm-3 {
     text-align: center; }
+  #section2 #languages kbd {
+    background-color: darkslateblue; }
   #section2 #technologies h5 {
     padding-top: 20px;
     padding-bottom: 10px; }
@@ -6360,6 +6379,7 @@ div .col-md-6 {
     background-color: darkslateblue; }
 
 #section3 {
+  font-family: 'Do Hyeon', sans-serif;
   padding-top: 80px; }
   #section3 .alignleft {
     float: left; }
@@ -6367,6 +6387,7 @@ div .col-md-6 {
     float: right; }
 
 #section4 {
+  font-family: 'Do Hyeon', sans-serif;
   padding-top: 80px; }
   #section4 .alignleft {
     float: left; }
