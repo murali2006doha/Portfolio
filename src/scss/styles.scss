@@ -1,0 +1,158 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.container-fluid 
+{
+  
+//  padding-left: 0px;
+//  padding-right: 0px;
+  height: 100%;
+
+  a.nav-link {  
+//    border-radius: 0;
+//      padding-top: 15px;
+//      padding-bottom: 15px;
+
+  }
+  ul.nav-pills {
+    top: 200px;
+    position: sticky;
+  }
+
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 20px; /* Added */
+
+}
+
+.navbar {  
+  line-height: 1.8;
+  border-bottom: 3px solid #ccc;
+  border-bottom-color: darkslateblue; 
+  background-color: whitesmoke;
+}
+
+#myScrollspy {
+  background-color: white;
+  
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.img-responsive {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width: 200px;
+}
+
+div {
+  .jumbotron {
+    border-bottom: 1px solid #ccc;
+    border-bottom-color: darkslateblue;
+    background-color: darkslateblue;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .col-md-6 {
+    padding-top: 50px;
+  }
+}
+
+
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gap-right {
+  margin-right: 10px; 
+}
+
+#section1 {
+  .col {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  #carouselExampleControls {
+    img {
+      height: 500px !important; 
+      width: auto;
+    }
+  }
+  
+  #carouselExampleControls2 {
+    img {
+      height: auto !important; 
+      margin: 0 auto;
+    }
+  }  
+}
+
+
+
+#section2 {
+  padding-top: 80px;
+  #languages {
+    h5 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .col-sm-3 {
+      text-align: center;
+    }
+  }
+
+  #technologies {
+    h5 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .col-sm-3 {
+      text-align: center;
+    }
+    kbd {
+      background-color: darkslateblue;
+    }
+  }
+}
+
+
+
+#section3 {
+  padding-top: 80px;
+  .alignleft {
+    float: left;
+  }
+  .alignright {
+    float: right;
+  }
+
+}
+
+#section4 {
+  padding-top: 80px;
+  .alignleft {
+    float: left;
+  }
+  .alignright {
+    float: right;
+  }
+
+}
+
+#section5 {
+  padding-top: 100px;
+}
+
+footer {
+  color: black;
+  border-top:  1px solid #ccc;
+}
